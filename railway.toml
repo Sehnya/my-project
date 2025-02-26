@@ -1,0 +1,11 @@
+# railway.toml
+
+[build]
+  # Command to build your Vue app
+  command = "npm run build"
+  # Directory where the production-ready files are output (default for Vue CLI)
+  output = "dist"
+
+[deploy]
+  # Command to start your Node server that serves the static files from "dist"
+  command = "npm start"
